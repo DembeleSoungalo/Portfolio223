@@ -27,6 +27,43 @@
 .App-link {
   color: #61dafb;
 }
+.user_img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.user_2nd h1{
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 4px rgb(34, 129, 238);
+  margin: 20px 0;
+}
+.reposCard{
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 4px rgb(34, 129, 238);
+ 
+}
+.btn-primary {
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  padding: 5px 10px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+}
+.reposCard h2{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.reposContainer{
+  height: 400px;
+  overflow-y: scroll;
+}
+.reposCard img{
+height: 150px;
+width: 150px;
+object-fit: cover;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +73,4 @@
     transform: rotate(360deg);
   }
 }
+
